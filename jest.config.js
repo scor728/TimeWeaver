@@ -9,7 +9,10 @@ const config = {
   coverageProvider: "v8",
 
   // The test environment that will be used for testing
-  testEnvironment: "node",
+  // testEnvironment: "jsdom",
+
+  // e2e Test related configuration
+  preset: "jest-puppeteer",
 };
 
 module.exports = config;
